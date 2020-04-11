@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.miwok">
+    package="com.rickkorkmaz.android.miwok">
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.rickkorkmaz.android.miwok.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,40 +30,40 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NumbersActivity"
+            android:name="com.rickkorkmaz.android.miwok.NumbersActivity"
             android:label="@string/category_numbers"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
         </activity>
         <activity
-            android:name=".FamilyActivity"
+            android:name="com.rickkorkmaz.android.miwok.FamilyActivity"
             android:label="@string/category_family"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
         </activity>
         <activity
-            android:name=".ColorsActivity"
+            android:name="com.rickkorkmaz.android.miwok.ColorsActivity"
             android:label="@string/category_colors"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
         </activity>
         <activity
-            android:name=".PhrasesActivity"
+            android:name="com.rickkorkmaz.android.miwok.PhrasesActivity"
             android:label="@string/category_phrases"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
         </activity>
     </application>
 
