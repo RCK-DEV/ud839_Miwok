@@ -42,6 +42,7 @@ public class PhrasesActivity extends AppCompatActivity {
     private List<Word> generateWords() {
         List<Word> words = new ArrayList<>();
 
+        // TODO Add audio Resource id's
         words.add(new Word("Where are you going?", "minto wuksus"));
         words.add(new Word("What is your name?", "tinnә oyaase'nә"));
         words.add(new Word("My name is...", "oyaaset..."));

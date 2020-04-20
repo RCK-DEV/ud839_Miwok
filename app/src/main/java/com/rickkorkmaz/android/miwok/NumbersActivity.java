@@ -41,7 +41,7 @@ public class NumbersActivity extends AppCompatActivity {
 
     private List<Word> generateWords() {
         List<Word> words = new ArrayList<>();
-
+        // TODO Add audio Resource id's
         words.add(new Word("one", "lutti", R.drawable.number_one));
         words.add(new Word("two", "otiiko", R.drawable.number_two));
         words.add(new Word("three", "tolookosu", R.drawable.number_three));
