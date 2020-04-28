@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,20 +14,19 @@
         android:layout_height="@dimen/list_item_height"
         tools:src="@mipmap/ic_launcher"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:paddingLeft="16dp"
         android:background="@color/category_numbers">
 
         <TextView
             android:id="@+id/miwok_translation_text"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
             android:textSize="20sp"
             tools:text="lutti"
             android:textAppearance="?android:textAppearanceMedium"
@@ -36,16 +36,25 @@
         <TextView
             android:id="@+id/default_translation_text"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="top"
-            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/miwok_translation_text"
+            android:layout_alignParentStart="true"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
-            tools:text="one"/>
+            android:textSize="20sp"
+            tools:text="one" />
 
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/play_arrow_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/baseline_play_arrow_white_24dp"
+            tools:ignore="RtlSymmetry" />
 
-    <!-- TODO Add Play/Pause button -->
+
+    </RelativeLayout>
 
 </LinearLayout>
