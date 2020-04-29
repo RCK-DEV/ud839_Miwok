@@ -75,7 +75,7 @@ public class ColorsFragment extends Fragment {
 
         final List<Word> words = generateWords();
 
-        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_colors);
 
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(wordArrayAdapter);

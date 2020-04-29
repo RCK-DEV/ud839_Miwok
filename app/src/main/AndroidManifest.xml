@@ -29,38 +29,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.rickkorkmaz.android.miwok.NumbersActivity"
-            android:label="@string/category_numbers"
-            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
-        </activity>
-        <activity android:name="com.rickkorkmaz.android.miwok.FamilyActivity"
-            android:label="@string/category_family"
-            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
-        </activity>
-        <activity android:name="com.rickkorkmaz.android.miwok.ColorsActivity"
-            android:label="@string/category_colors"
-            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
-        </activity>
-        <activity android:name="com.rickkorkmaz.android.miwok.PhrasesActivity"
-            android:label="@string/category_phrases"
-            android:parentActivityName="com.rickkorkmaz.android.miwok.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.rickkorkmaz.android.miwok.MainActivity"/>
-        </activity>
     </application>
 
 </manifest>

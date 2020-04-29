@@ -75,7 +75,7 @@ public class PhrasesFragment extends Fragment {
 
         final List<Word> words = generateWords();
 
-        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_phrases);
 
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(wordArrayAdapter);

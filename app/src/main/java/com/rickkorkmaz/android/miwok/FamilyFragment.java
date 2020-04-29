@@ -76,7 +76,7 @@ public class FamilyFragment extends Fragment {
 
         final List<Word> words = generateWords();
 
-        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        ArrayAdapter<Word> wordArrayAdapter = new WordAdapter(getActivity(), words, R.color.category_family);
 
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(wordArrayAdapter);
